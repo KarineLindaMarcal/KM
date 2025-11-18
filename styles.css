@@ -64,18 +64,6 @@ body {
     text-align: center;
 }
 
-/* Galeria */
-.galeria {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-}
-
-.galeria img {
-    width: 100%;
-    border-radius: 10px;
-}
-
 /* Timeline */
 .linha-tempo {
     display: flex;
@@ -243,3 +231,4 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
