@@ -1,0 +1,40 @@
+=========================================
+⚠️  CONFIGURAÇÃO IMPORTANTE ANTES DE PUBLICAR
+=========================================
+
+1️⃣  NÚMERO DO WHATSAPP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Abra: script.js
+
+Procure por:
+const NUMERO_WHATSAPP = "5599999999999";
+
+Substitua "5599999999999" pelo SEU número:
+Formato: 55 (Brasil) + DDD + número
+Exemplo: 55 11 98765-4321 → 5511987654321
+
+✅ PRONTO: Salve o arquivo (Ctrl+S)
+
+---
+
+2️⃣  TESTAR LOCALMENTE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Abra em seu navegador:
+• Clique duplo em index.html
+ou
+• Use Python: python -m http.server 8000
+  Depois acesse: http://localhost:8000
+
+---
+
+3️⃣  PUBLICAR NO NETLIFY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Opção mais rápida (Drag & Drop):
+1. Acesse: https://app.netlify.com
+2. Faça login (Gmail, GitHub, etc.)
+3. Arraste a pasta do projeto para a tela
+4. Pronto! Seu site estará online!
+
+---
+
+✨ SUCESSO! Seu casamento site está pronto para o mundo! 💍

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casamento — Karine & Amor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topo">
+    <h1 class="titulo-principal">Karine & Murilo</h1>
+    <p class="subtitulo">22 de Novembro de 2026 — 08h30</p>
+
+    <div class="contador">
+        <div><span id="dias"></span>dias</div>
+        <div><span id="horas"></span>h</div>
+        <div><span id="minutos"></span>min</div>
+        <div><span id="segundos"></span>s</div>
+    </div>
+</header>
+
+<nav class="menu">
+    <a href="#historia">Nossa História</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#timeline">Programação</a>
+    <a href="#musica">Playlist</a>
+    <a href="#local">Local</a>
+    <a href="#rsvp">Confirmar Presença</a>
+</nav>
+
+<section id="historia" class="sessao animar">
+    <h2>Nossa História</h2>
+    <p>
+        Tudo começou com um sorriso…  
+        E desde então, nossos caminhos se uniram para sempre.  
+        Em 2026, vamos celebrar o amor com aqueles que mais amamos: vocês.
+    </p>
+</section>
+
+<section id="galeria" class="sessao animar">
+    <h2>Galeria dos Noivos</h2>
+
+    <div class="galeria">
+        <img src="https://source.unsplash.com/600x400/?couple,1">
+        <img src="https://source.unsplash.com/600x400/?wedding,2">
+        <img src="https://source.unsplash.com/600x400/?love,3">
+        <img src="https://source.unsplash.com/600x400/?romantic,4">
+    </div>
+</section>
+
+<section id="timeline" class="sessao animar">
+    <h2>Programação do Grande Dia</h2>
+
+    <div class="linha-tempo">
+        <div class="item">
+            <h3>08:30</h3>
+            <p>Cerimônia</p>
+        </div>
+
+        <div class="item">
+            <h3>09:30</h3>
+            <p>Fotos</p>
+        </div>
+
+        <div class="item">
+            <h3>10:00</h3>
+            <p>Recepção</p>
+        </div>
+    </div>
+</section>
+
+<section id="musica" class="sessao animar">
+    <h2>Nossa Playlist</h2>
+
+    <div class="player">
+        <iframe 
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DXdPec7aLTmlC" 
+            width="100%" height="380" frameBorder="0" allow="encrypted-media">
+        </iframe>
+    </div>
+</section>
+
+<section id="local" class="sessao animar">
+    <h2>📍 Local do Evento</h2>
+
+    <div class="card-local">
+        <h3>Paróquia Santíssima Trindade</h3>
+        <p><strong>Endereço:</strong> Rua Tuim, 33 — Arapongas, PR 86709-380</p>
+        <p><strong>Horário:</strong> 08h30 (confira no seu relógio!)</p>
+        
+        <div class="botoes-local">
+            <a href="https://maps.google.com/maps?q=Paróquia+Santíssima+Trindade+Rua+Tuim+33+Arapongas+PR" target="_blank" class="botao-local">
+                🗺️ Ver no Google Maps
+            </a>
+            <a href="https://wa.me/5599999999999?text=Oi!%20Qual%20é%20o%20caminho%20para%20a%20Paróquia%20Santíssima%20Trindade?" target="_blank" class="botao-local">
+                💬 Tirar Dúvidas
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="rsvp" class="sessao animar">
+    <h2>✨ Confirme sua Presença</h2>
+
+    <p class="descricao-rsvp">
+        Queremos saber se você estará conosco neste dia especial!<br>
+        Preencha o formulário abaixo e sua confirmação será enviada via WhatsApp.
+    </p>
+
+    <form id="form-presenca" class="formulario-rsvp">
+        <input 
+            type="text" 
+            id="nome" 
+            placeholder="Seu nome completo" 
+            required
+        >
+        
+        <select id="confirmacao" required>
+            <option value="">Selecione sua resposta</option>
+            <option value="Sim, vou estar lá! 💕">Sim, eu vou! 💕</option>
+            <option value="Infelizmente não poderei ir 😢">Infelizmente não poderei ir 😢</option>
+        </select>
+
+        <input 
+            type="text" 
+            id="acompanhantes" 
+            placeholder="Quantos acompanhantes? (opcional)" 
+        >
+
+        <textarea 
+            id="mensagem" 
+            placeholder="Deixe uma mensagem ou pedido especial (opcional)"
+            rows="3"
+        ></textarea>
+
+        <button type="submit" class="botao-submit">Confirmar Presença</button>
+    </form>
+
+    <div id="mensagem-retorno" class="mensagem-resposta"></div>
+
+    <div class="info-rsvp">
+        <p>✅ <strong>Como funciona:</strong> Sua confirmação será enviada direto para o nosso WhatsApp. Você pode acompanhar suas respostas e nós receberemos tudo!</p>
+    </div>
+</section>
+
+<footer>
+    <p>Com carinho, Karine & Murilo — 2026 💍</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
