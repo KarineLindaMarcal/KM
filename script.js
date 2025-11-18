@@ -137,3 +137,4 @@ function mostrarMensagem(texto, tipo) {
         }, 5000);
     }
 }
+
